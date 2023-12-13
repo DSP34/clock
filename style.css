@@ -85,3 +85,32 @@ body{
 
         
     }
+
+    @media only screen and (max-width:360px) {
+        body{
+        background-color: black;
+        }
+        .mid{
+            width: 10px;
+            height: 10px;
+            top: 13.45%;
+            left: 49.6%;
+        }
+        #hours{
+            height: 23px;
+            top: 10.7%;
+            left:51.2% ;
+        }
+        #min{
+            height: 29px;
+            top:9.47% ;
+            left:50.7% ;
+        }
+        #sec{
+            height: 35px;
+            top: 8.59%;
+            left:50.5% ;
+        }
+
+        
+    }
